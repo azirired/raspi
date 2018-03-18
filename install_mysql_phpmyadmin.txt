@@ -1,0 +1,13 @@
+Open Terminal
+> sudo apt-get install mariadb-server mariadb-client
+> sudo apt-get install phpmyadmin
+
+Setup password and secure your install
+> sudo mysql_secure_installation
+
+Configuring Apache for phpMyAdmin
+> sudo nano /etc/apache2/apache2.conf
+> Now at the bottom of this file enter the following line:
+  Include /etc/phpmyadmin/apache.conf
+> Once done save & exit by pressing CTRL +X and then y.
+> Now you should be able to access from browser http://localhost/phpmyadmin
