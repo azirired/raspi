@@ -1,1 +1,23 @@
+Install Jetty
+> Go to https://www.eclipse.org/jetty/download.html
+> Download .tgz to pi
+> Extract .tgz to any folder you want
+
+Install Lucee
+> Go to http://download.lucee.org/
+> Download WAR file (*.war)
+> Rename WAR file if you want (this is will be your Lucee Folder)
+> Put Lucee WAR file to YOUR_JETTY_FOLDER/demo-base/webapps/
+
+RUN Jetty
+> Open Terminal
+> $ cd YOUR_JETTY_FOLDER
+> $ cd demo-base
+> $ java -jar ../start.jar
+
+RUN Lucee
+> Type http://localhost:8080/YOUR_LUCEE_FOLDER
+> Lucee main page will be load. 
+DONE!!!
+
 
